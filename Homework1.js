@@ -21,13 +21,14 @@
     });
     
     //////////////////////////////////////////////////////////////////////////////////////
+    
     // DONE
     global.UAM.addAircraft = function (newAircraftCode) {
         UAM.aircrafts.push({code: newAircraftCode, services: []});
         return {code: newAircraftCode, services: []};
     };
     
-	// DONE
+    // DONE
     global.UAM.removeAircraft = function (aircraftObj) {
         for(var aircraft in UAM.aircrafts){          
             if(aircraftObj.code === UAM.aircrafts[aircraft].code){
@@ -37,12 +38,12 @@
     };
 
     // DONE
-    global.UAM.addWorkToAircraft = function(aircraftObj, name, timeToExxecute) {
-		for(var aircraft in UAM.aircrafts){          
+    global.UAM.addWorkToAircraft = function(aircraftObj, name, timeToExecute) {
+	for(var aircraft in UAM.aircrafts){          
             if(aircraftObj.code === UAM.aircrafts[aircraft].code){
                 UAM.aircrafts[aircraft].services.push( {
                     name: name,
-                    timeToExecute: timeToExxecute
+                    timeToExecute: timeToExecute
                 } );
             }
         }
