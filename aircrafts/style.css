@@ -1,0 +1,147 @@
+/* HEADER */
+
+#header {
+    margin: 0 20px;
+    border: 5px dashed #8ab453;
+    padding-left: 10px;
+}
+
+#header h1 {
+    color: green;
+    font-size:50px;
+    margin:20px 10px;
+}
+
+/*********************/
+
+/* CONTENT */
+
+#content {
+    margin: 0 20px;
+}
+
+/*********************/
+
+/* INPUTS */
+
+.options_inputs {
+    padding: 30px 10px 10px 0;
+}
+
+.options_inputs span {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin-left:20px;
+    border-left: 1px solid black
+}
+
+.options_inputs span:first-child {
+    border: none;   
+}
+
+.options_inputs input {
+    border: 3px solid #8ab453;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    width:150px;
+}
+
+/*********************/
+
+/* BUTTONS */
+
+.options_buttons {
+    margin: 20px;
+}
+
+.options_buttons button {
+    font-weight: bold;
+    font-size:15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 5px #888888;    
+    border-radius: 7px;
+    border: 2px solid green;
+    background-color: darkgreen;
+    color: white;
+}
+
+.options_buttons button:first-child {
+    margin-left: 0;
+}
+
+.options_buttons button:hover {
+    background-color: #8ab453;
+    color: black;
+}
+
+.options_buttons button:active {
+    border-color: white;
+}
+
+/*********************/
+
+/* LISTS */
+
+.lists {
+    margin: 30px 10px;
+    border-top: 5px dashed #8ab453; 
+    font-size: 20px;
+}
+
+.lists button {
+    font-weight: bold;
+    font-size:15px;
+    margin: 10px;
+    margin-top:30px;
+    padding: 10px;
+    box-shadow: 2px 5px 5px #888888;    
+    border-radius: 7px;
+    border: 2px solid green;
+    background-color: darkgreen;
+    color: white;
+}
+
+.lists button:hover {
+    background-color: #8ab453;
+    color: black;
+}
+
+.lists button:active {
+    border-color: white;
+}
+
+.lists h2 {
+    color: green;
+    font-size:22px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.lists ul {
+    list-style:none;
+    margin-left:40px; 
+    padding:0;
+}
+
+
+#aircraft_list ul li {
+    margin:0; 
+    padding-top:5px;
+    background:url('aircraft.png') no-repeat 0 0;
+    padding-left:40px;
+    min-height:30px;
+}
+
+#services_list ul li {
+    margin:0; 
+    padding-top:5px;
+    background:url('cog.png') no-repeat 0 0;
+    padding-left:40px;
+    min-height:30px;
+}
+
+/*********************/

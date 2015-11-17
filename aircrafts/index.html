@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="code.js"></script>
+    <title>Aircrafts</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Hangar</h1>
+    </div>
+    <div id="content">
+        <div class="options_inputs">
+            <span>Aircraft: </span>
+            <input type="text" maxlength="10" id="aircraft" value="SP-ABC"/>
+            <span>Service: </span>
+            <input type="text" maxlength="10" id="service" value="smth1" />
+            <span>Time: </span>
+            <input type="text" maxlength="10" id="time" value="120"/>
+        </div>
+        <div class="options_buttons">
+            <button onclick="UAM.addAircraft()">Add aircraft</button>
+            <button onclick="UAM.removeAircraft()">Remove aircraft</button>
+            <button onclick="UAM.addWorkToAircraft()">Add work to aircraft</button>
+            <button onclick="UAM.reduceTimeToExecute()">Reduce time of service</button>
+            <button onclick="UAM.getAircraftsForRepairs()">Get aircrafts for repairs</button>
+        </div>
+        <div class="lists">
+            <div class="lists_buttons">
+                <button onclick="UAM.showAircraft(UAM.aircrafts)">Show aircrafts</button>
+                <button onclick="UAM.showAircraftService(UAM.aircrafts)">Show services</button>
+            </div>
+            <h2>Aircrafts</h2>
+            <div id="aircraft_list"></div>
+            <div id="services_list"></div>
+        </div>
+    </div>
+</body>
+</html>
