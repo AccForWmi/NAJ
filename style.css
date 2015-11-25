@@ -1,0 +1,55 @@
+.form {
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.form div {
+    margin: 10px 0;
+}
+
+.form h1 {
+    font-family: 'Arial';
+    font-size: 35px;
+}
+
+.form input {
+    width: 100%;
+    border: 5px double darkred;
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+.todos-data {
+    display: inline-block;
+    width: 250px;
+    margin-top: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.todos-list {
+    margin-top: 50px;
+}
+
+.todos-edit {
+    background-color: lightcyan;
+    width: 430px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.todos-edit span {
+    border: 2px solid darkred;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+#addTask {
+    visibility: hidden;
+}
